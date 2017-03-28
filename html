@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="matching-days.css">
+</head>
+
+<body>
+    <h1>Matching Days</h1>
+    <br>
+    <br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td class="days">Sunday</td>
+                <td class="days">Monday</td>
+                <td class="days">Tuesday</td>
+                <td class="days">Wednesday</td>
+                <td class="days">Thursday</td>
+                <td class="days">Friday</td>
+                <td class="days">Saturday</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div action="/action_page.php">
+        First date:
+        <input type="date" name="date" id='getDay' onchange="myFunction()">
+    </div>
+
+    <div action="/action_page.php">
+        Second date:
+        <input type="date" name="date" id='getdate' onchange="myFunction()">
+    </div>
+
+</body>
+<script src="matching-days.js"></script>
+
+</html>

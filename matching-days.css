@@ -1,0 +1,35 @@
+h1 {
+    background-color: #254465;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+table, td {
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    font-size: 35px;
+}
+
+.days {
+    transform: rotate(-45.0deg);
+}
+
+div {
+    background-color: orange;
+    text-align: center;
+    font-size: 40px;
+}
+
+.style1 {
+    background-color: red;
+}
+
+.style2 {
+    background-color: green;
+}
+
+.style3 {
+    background-color: blue;
+}
